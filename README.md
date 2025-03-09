@@ -1,5 +1,14 @@
 # Sample UI test using Playwright
 
+### Run test in Chrome
+npx playwright test --project=chromium
+
+### Run test on all browsers (Chrome, Firefox, Safari)
+npx playwright test
+
+### View test report
+npx playwright show-report
+
 ## Test case
 * Test Scenario: Test Scenario: Verify an error message is displayed when the user puts invalid credentials.
 * Test Steps:
