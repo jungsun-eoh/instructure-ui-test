@@ -2,7 +2,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
     use: {
-        headless: false, // Non-headless mode
+        headless: true, // headless mode
         screenshot: 'only-on-failure',  // Capture screenshot on failure
         video: 'retain-on-failure', // Record video on failure
     },
