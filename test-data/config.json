@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://www.instructure.com",
+    "invalidCredentials": {
+      "email": "invalid@example.com",
+      "password": "wrongpassword"
+    },
+    "errorMessages": {
+      "loginWithInvalidCredentials": "Please verify your username or password and try again."
+    }
+  }

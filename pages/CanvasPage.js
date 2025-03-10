@@ -1,3 +1,5 @@
+const testData = require('../test-data/config.json');
+
 class CanvasPage {
     constructor(page) {
         this.page = page;
@@ -9,7 +11,7 @@ class CanvasPage {
     }
 
     async navigateToCanvasLogin() {
-        await this.page.goto('https://www.instructure.com/');
+        await this.page.goto(testData.baseUrl);
         await this.page.click(this.menuLoginButton)
         await this.page.click(this.canvasLoginButton);
         await this.page.getByRole('tab', { name: 'Canvas Network' }).click();   
