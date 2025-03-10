@@ -1,5 +1,8 @@
 # Sample UI test using Playwright
 
+### Presention
+https://docs.google.com/presentation/d/1cpwwvJqrINbOBUkeQBGbtY3-dDUbV08Sji2JK2whrKE/edit?usp=sharing
+
 ### Run test in Chrome
 npx playwright test --project=chromium
 
